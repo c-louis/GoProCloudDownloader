@@ -7,7 +7,6 @@ This Python application allows you to download all the videos available on a pub
 Before using this application, ensure you have the following installed:
 
 - Python 3.x
-- Selenium library (`pip install selenium`)
 - Chrome WebDriver (download the appropriate version for your Chrome browser)
 
 ## Setup
