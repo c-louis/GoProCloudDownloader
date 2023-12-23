@@ -119,7 +119,7 @@ class Display(QObject, Helped):
             progress = self.progress_bars[progress_bar_name].bar.value() + 1
             if progress == 0:
                 progress = 1
-        self.progress_bars[progress_bar_name].set_value(progress)
+        self.progress_bars[progress_bar_name].set_value(int(progress))
         print("Emitted")
 
     @pyqtSlot(bytes)
